@@ -1,228 +1,253 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Bibek Das - Portfolio</title>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+      />
+      <title>Bibek Das - Portfolio</title>
 
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        background-color: antiquewhite;
-        color: rgb(5, 0, 0);
-        font-family: "Poppins", sans-serif;
-      }
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 100px;
-        background-color: rgb(5, 0, 0);
-        color: antiquewhite;
-      }
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-      nav ul li {
-        list-style-type: none;
-        margin: 3vw;
-        font-size: 1rem;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: antiquewhite;
-      }
-      nav ul li a:hover {
-        text-decoration: none;
-        color: rgb(255, 172, 70);
-      }
-      .left {
-        font-size: 1.5rem;
-      }
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 8%;
-        margin-top: 5%;
-      }
-      .firstSection > div {
-        width: 50%;
-      }
-      .leftSection {
-        font-size: 3vw;
-      }
-      .rightSection img {
-        width: 90%;
-        margin: 20px;
-      }
-      .light {
-        font-weight: 300;
-        font-size: 2vw;
-        font-style: italic;
-      }
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          background-color: antiquewhite;
+          color: rgb(5, 0, 0);
+          font-family: "Poppins", sans-serif;
+        }
+        nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100px;
+          background-color: rgb(5, 0, 0);
+          color: antiquewhite;
+        }
+        nav ul {
+          display: flex;
+          justify-content: center;
+        }
+        nav ul li {
+          list-style-type: none;
+          margin: 3vw;
+          font-size: 1rem;
+        }
+        nav ul li a {
+          text-decoration: none;
+          color: antiquewhite;
+        }
+        nav ul li a:hover {
+          text-decoration: none;
+          color: rgb(255, 172, 70);
+        }
+        .left {
+          font-size: 1.5rem;
+        }
+        .firstSection {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-left: 8%;
+          margin-top: 5%;
+        }
+        .firstSection > div {
+          width: 50%;
+        }
+        .leftSection {
+          font-size: 3vw;
+        }
+        .rightSection img {
+          width: 90%;
+          margin: 20px;
+        }
+        .light {
+          font-weight: 300;
+          font-size: 2vw;
+          font-style: italic;
+        }
 
-      .text-brown {
-        color: rgb(125, 85, 52);
-      }
-      .ybut {
-        color: rgb(255, 172, 70);
-      }
-      .ybut:hover {
-        color: rgb(250, 235, 215);
-      }
-      #typeani {
-        color: rgb(255, 172, 70);
-      }
-      .secondSection {
-        display: block;
-        margin-left: 8%;
-        margin-top: 0px;
-        font-size: 1.8vw;
-      }
-      .secondSection h1 {
-        font-size: 3vw;
-        font-weight: 600;
-        line-height: 90%;
-      }
-      .jobFrame {
-        margin-top: 5%;
-        display: flex;
-        width: 100%;
-        justify-content: start;
-        align-items: center;
-        gap: 28px;
-        line-height: 130%;
-      }
-      .square {
-        width: 10%;
-        height: 10%;
-        flex-shrink: 0;
-        aspect-ratio: 1/1;
-        border-radius: 10px;
-        background: url(companylogo.jpg) lightgray 50% / cover no-repeat;
-      }
-      .cName {
-        color: #000;
-        font-size: 2.7vw;
-        font-weight: 500;
-      }
-      .jobdesc {
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.6vw;
-        font-style: italic;
-      }
+        .text-brown {
+          color: rgb(125, 85, 52);
+        }
+        .ybut {
+          color: rgb(255, 172, 70);
+        }
+        .ybut:hover {
+          color: rgb(250, 235, 215);
+        }
+        #typeani {
+          color: rgb(255, 172, 70);
+        }
+        .secondSection {
+          display: block;
+          margin-left: 8%;
+          margin-top: 0px;
+          font-size: 1.8vw;
+        }
+        .secondSection h1 {
+          font-size: 3vw;
+          font-weight: 600;
+          line-height: 90%;
+        }
+        .jobFrame {
+          margin-top: 5%;
+          display: flex;
+          width: 100%;
+          justify-content: start;
+          align-items: center;
+          gap: 28px;
+          line-height: 130%;
+        }
+        .square {
+          width: 10%;
+          height: 10%;
+          flex-shrink: 0;
+          aspect-ratio: 1/1;
+          border-radius: 10px;
+          background: url(companylogo.jpg) lightgray 50% / cover no-repeat;
+        }
+        .cName {
+          color: #000;
+          font-size: 2.7vw;
+          font-weight: 500;
+        }
+        .jobdesc {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 1.6vw;
+          font-style: italic;
+        }
 
+        .connect {
+          margin-top: 5%;
+          display: inline-flex;
+          padding: 12px 24px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 10px;
+          border: 1px solid #000;
+          background: #ffac46;
+          font-size: 1.6vw;
+        }
+        .or {
+          font-size: 1.6vw;
+        }
+        .res {
+          margin-top: -2.5%;
+        }
+        .res a{
+          color: #7d5534;
+          font-size: 1vw;
+          font-style: normal;
+          font-weight: 400;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+        }
 
+        footer {
+          display: flex;
+          justify-content: center;
+          margin-top: 10%;
+          padding: 1%;
+          background-color: rgb(5, 0, 0);
+          color: antiquewhite;
+          font-weight: 200;
+          font-style: italic;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <div class="left">Bibek's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Services</a></li>
+              <li><a href="/">Projects</a></li>
+              <li><a class="ybut" href="/">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="firstSection">
+          <div class="leftSection">
+            <span class="light">Hey There,</span>
+            <br />
+            My name is <span class="text-brown">Bibek.</span>
+            <br />
+            I am a <span id="typeani"></span> <br />
 
-      footer {
-        display: flex;
-        justify-content: center;
-        margin-top: 10%;
-        padding: 1%;
-        background-color: rgb(5, 0, 0);
-        color: antiquewhite;
-        font-weight: 200;
-        font-style: italic;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">Bibek's Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a class="ybut" href="/">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          <span class="light">Hey There,</span>
-          <br />
-          My name is <span class="text-brown">Bibek.</span>
-          <br />
-          I am a <span id="typeani"></span>
-        </div>
-        <div class="rightSection">
-          <img src="dev.png" alt="" />
-        </div>
-      </section>
-      <section class="secondSection">
-        <span class="text-brown">What I have done so far?</span>
-        <h1>Work Experience</h1>
-        <div class="jobs">
-          <div class="jobFrame">
-            <div class="square"></div>
-            <div class="text-workexp">
-              <span class="text-brown">2024-Current Year</span>
-              <br />
-              <span class="cName">Company Name</span>
-              <br />
-              <span class="jobdesc"
-                >(2023 - 2024) Junior Development Officer <br />(2024 - Current)
-                Senior Development Officer</span
-              >
+            <button class="connect">Chat with me</button>
+            <span class="or">or</span> <br>
+            <div class="res"><a href="">Download my Resume</a></div>
+          </div>
+
+          <div class="rightSection">
+            <img src="dev.png" alt="" />
+          </div>
+        </section>
+        <section class="secondSection">
+          <span class="text-brown">What I have done so far?</span>
+          <h1>Work Experience</h1>
+          <div class="jobs">
+            <div class="jobFrame">
+              <div class="square"></div>
+              <div class="text-workexp">
+                <span class="text-brown">2024-Current Year</span>
+                <br />
+                <span class="cName">Company Name</span>
+                <br />
+                <span class="jobdesc"
+                  >(2023 - 2024) Junior Development Officer <br />(2024 - Current)
+                  Senior Development Officer</span
+                >
+              </div>
+            </div>
+            <div class="jobFrame">
+              <div class="square"></div>
+              <div class="text-workexp">
+                <span class="text-brown">2022-2024</span>
+                <br />
+                <span class="cName">Company Name</span>
+                <br />
+                <span class="jobdesc"
+                  >(2022 - 2024) Junior Development Officer <br
+                /></span>
+              </div>
+            </div>
+            <div class="jobFrame">
+              <div class="square"></div>
+              <div class="text-workexp">
+                <span class="text-brown">2019-2022</span>
+                <br />
+                <span class="cName">Freelancer</span>
+                <br />
+                <span class="jobdesc">Graphic Designer <br />Photographer</span>
+              </div>
             </div>
           </div>
-          <div class="jobFrame">
-            <div class="square"></div>
-            <div class="text-workexp">
-              <span class="text-brown">2022-2024</span>
-              <br />
-              <span class="cName">Company Name</span>
-              <br />
-              <span class="jobdesc"
-                >(2022 - 2024) Junior Development Officer <br
-              /></span>
-            </div>
-          </div>
-          <div class="jobFrame">
-            <div class="square"></div>
-            <div class="text-workexp">
-              <span class="text-brown">2019-2022</span>
-              <br />
-              <span class="cName">Freelancer</span>
-              <br />
-              <span class="jobdesc"
-                >Graphic Designer <br>Photographer</span
-              >
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
-      
+      <footer>
+        <span>All Rights Reserved Bibek Das CC 2025</span>
+      </footer>
 
-    </main>
-
-    <footer>
-      <span>All Rights Reserved Bibek Das CC 2025</span>
-    </footer>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#typeani", {
-        strings: ["Web Developer.", "Graphic Designer.", "Software Engineer."],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
-</html>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed("#typeani", {
+          strings: ["Web Developer.", "Graphic Designer.", "Software Engineer."],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+  </html>
