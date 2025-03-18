@@ -89,14 +89,13 @@
         margin-left: 8%;
         margin-top: 0px;
         font-size: 1.8vw;
-        height: 80vh;
       }
       .secondSection h1 {
         font-size: 3vw;
         font-weight: 600;
         line-height: 90%;
       }
-      .section2frame {
+      .jobFrame {
         margin-top: 5%;
         display: flex;
         width: 100%;
@@ -115,12 +114,25 @@
       }
       .cName {
         color: #000;
-        font-size: 3vw;
+        font-size: 2.7vw;
         font-weight: 500;
       }
       .jobdesc {
         color: rgba(0, 0, 0, 0.5);
         font-size: 1.6vw;
+        font-style: italic;
+      }
+
+
+
+      footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        padding: 1%;
+        background-color: rgb(5, 0, 0);
+        color: antiquewhite;
+        font-weight: 200;
         font-style: italic;
       }
     </style>
@@ -156,21 +168,54 @@
       <section class="secondSection">
         <span class="text-brown">What I have done so far?</span>
         <h1>Work Experience</h1>
-        <div class="section2frame">
-          <div class="square"></div>
-          <div class="text-workexp">
-            <span class="text-brown">2024-Current Year</span>
-            <br />
-            <span class="cName">Company Name</span>
-            <br />
-            <span class="jobdesc"
-              >(2023 - 2024) Junior Development Officer <br />(2024 - Current)
-              Senior Development Officer</span
-            >
+        <div class="jobs">
+          <div class="jobFrame">
+            <div class="square"></div>
+            <div class="text-workexp">
+              <span class="text-brown">2024-Current Year</span>
+              <br />
+              <span class="cName">Company Name</span>
+              <br />
+              <span class="jobdesc"
+                >(2023 - 2024) Junior Development Officer <br />(2024 - Current)
+                Senior Development Officer</span
+              >
+            </div>
+          </div>
+          <div class="jobFrame">
+            <div class="square"></div>
+            <div class="text-workexp">
+              <span class="text-brown">2022-2024</span>
+              <br />
+              <span class="cName">Company Name</span>
+              <br />
+              <span class="jobdesc"
+                >(2022 - 2024) Junior Development Officer <br
+              /></span>
+            </div>
+          </div>
+          <div class="jobFrame">
+            <div class="square"></div>
+            <div class="text-workexp">
+              <span class="text-brown">2019-2022</span>
+              <br />
+              <span class="cName">Freelancer</span>
+              <br />
+              <span class="jobdesc"
+                >Graphic Designer <br>Photographer</span
+              >
+            </div>
           </div>
         </div>
       </section>
+
+      
+
     </main>
+
+    <footer>
+      <span>All Rights Reserved Bibek Das CC 2025</span>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
